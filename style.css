@@ -1,0 +1,10 @@
+:root { --bg: #ffffff; --fg: #1b1b1f; --muted: #5c5f66; --accent: #1d4ed8; --rule: #e3e4e8; }
+@media (prefers-color-scheme: dark) { :root { --bg: #18181b; --fg: #ececf1; --muted: #a1a1aa; --accent: #7aa7ff; --rule: #2e2e33; } }
+html { background: var(--bg); color: var(--fg); }
+body { font: 16px/1.6 "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif; max-width: 44rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+h1 { font-size: 1.8rem; line-height: 1.25; margin: 0 0 .25rem; }
+h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+a { color: var(--accent); }
+code { font: .9em Consolas, monospace; }
+.meta { color: var(--muted); margin: 0 0 1.5rem; }
+header img { width: 64px; height: 64px; display: block; margin-bottom: .75rem; }

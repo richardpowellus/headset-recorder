@@ -8,3 +8,11 @@ a { color: var(--accent); }
 code { font: .9em Consolas, monospace; }
 .meta { color: var(--muted); margin: 0 0 1.5rem; }
 header img { width: 64px; height: 64px; display: block; margin-bottom: .75rem; }
+.cta { margin: 1.5rem 0 .25rem; }
+.button { display: inline-block; background: var(--accent); color: var(--bg); text-decoration: none;
+  font-weight: 600; padding: .7rem 1.25rem; border-radius: .4rem; }
+.button:hover, .button:focus-visible { filter: brightness(1.12); }
+.small { font-size: .9rem; }
+figure { margin: 1.5rem 0; }
+figure img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); border-radius: .4rem; }
+figcaption { color: var(--muted); font-size: .9rem; margin-top: .5rem; }
